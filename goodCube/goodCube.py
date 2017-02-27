@@ -2,11 +2,6 @@
 Created on Fri Jan 27 10:10:19 2017
 
 @author: Dan
-
-To run: 1.) Install FEniCS in Docker
-        2.) Navigate to the ~/home menu in the terminal
-        3.) docker run -ti -v $(pwd):/home/fenics/shared quay.io/fenicsproject/stable
-        4.) cd shared/Google\ Drive/Papers/Single\ Pulse/Modeling/Cell
 """
 from fenics import *
 import os
